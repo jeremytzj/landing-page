@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header > ul {
+    display: flex;
+    gap: 16px;
+}

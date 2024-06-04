@@ -4,63 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
-
-    <div class="header">
-        <p class="logo">Header logo</p>
-        <ul>
-            <li><a href="#">header link one</a></li>
-            <li><a href="#">header link two</a></li>
-            <li><a href="#">header link three</a></li>
-        </ul>
-    </div>
-
     <div class="hero">
         <div class="left">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-            <a href="#" class="btn">Sign up</a>
+            <div>
+                <p class="logo header">Header logo</p>
+            </div>
+            <div class="left-hero">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <a href="#" class="btn">Sign up</a>
+            </div>    
         </div>
         <div class="right">
-            <img src="https://placehold.jp/300x150.png" alt="image placeholder">
+            <ul class="header">
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+            <img src="https://placehold.jp/500x200.png" alt="image placeholder">
         </div>
     </div>
 
-    <div class="infos">
+    <div class="main">
         <h2>Some random information.</h2>
-        <div class="info">
-            <img src="https://placehold.jp/100x100.png" alt="">
-            <p>this is some subtext under an ilustration or image</p>
+        <div class="infos">
+            <div class="info">
+                <img src="https://placehold.jp/100x100.png" alt="">
+                <p>this is some subtext under an ilustration or image</p>
+            </div>
+            <div class="info">
+                <img src="https://placehold.jp/100x100.png" alt="">
+                <p>this is some subtext under an ilustration or image</p>
+            </div>
+            <div class="info">
+                <img src="https://placehold.jp/100x100.png" alt="">
+                <p>this is some subtext under an ilustration or image</p>
+            </div>
+            <div class="info">
+                <img src="https://placehold.jp/100x100.png" alt="">
+                <p>this is some subtext under an ilustration or image</p>
+            </div>
         </div>
-        <div class="info">
-            <img src="https://placehold.jp/100x100.png" alt="">
-            <p>this is some subtext under an ilustration or image</p>
-        </div>
-        <div class="info">
-            <img src="https://placehold.jp/100x100.png" alt="">
-            <p>this is some subtext under an ilustration or image</p>
-        </div>
-        <div class="info">
-            <img src="https://placehold.jp/100x100.png" alt="">
-            <p>this is some subtext under an ilustration or image</p>
-        </div>
-    </div>
+    </div>    
 
+    
     <div class="quotation">
-        <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-        <p class="quote-author">-Thor, God of Thunder</p>
+        <div class="content">
+            <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p class="quote-author">-Thor, God of Thunder</p>
     </div>
-
-    <div class="call">
-        <div class="call-text">
-            <p class="bold white">Call to action! It's time!</p>
-            <p>Sign up for our product by clicking that button right over there!</p>
         </div>
-        <a href="#">Sign up</a>
+    <div class="call-container">
+        <div class="call">
+            <div class="call-text">
+                <p class="call-time">Call to action! It's time!</p>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <a href="#" class="btn">Sign up</a>
+        </div>
     </div>
-
     <footer>
         Copyright © The Odin Project 2021
     </footer>
